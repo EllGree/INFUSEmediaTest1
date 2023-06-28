@@ -25,7 +25,7 @@ if ($result->num_rows === 0) {
 
 // Get visitor's information
 $ip_address = $_SERVER['REMOTE_ADDR'];
-$user_agent = $_SERVER['HTTP_USER_AGENT'];
+$user_agent = mysqli_real_escape_string($conn, $_SERVER['HTTP_USER_AGENT']);
 $page_url = parse_url($_SERVER['HTTP_REFERER'], PHP_URL_PATH);
 
 $where = "ip_address = '{$ip_address}' AND user_agent = '{$user_agent}' AND page_url = '{$page_url}'";

@@ -2,6 +2,9 @@
 
 INFUSEmedia PHP skills test job
 
+The job has been completed and has been deployed:
+http://ellgree.com/INFUSEmediaTest1/index.html
+
 # Please find below a task for PHP proficiency evaluation:
 
 The project should consist of at least the following 3 files:
@@ -37,4 +40,3 @@ as well as views_count column has to be increased by 1.
 
 Please provide a link to GitHub or BitBucket with the uploaded code and let us know how long it took you to complete this task.
 
-Thank you!
